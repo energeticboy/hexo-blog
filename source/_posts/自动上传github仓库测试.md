@@ -1,6 +1,6 @@
 ---
 title: 自动上传github仓库测试
-date: 2025-06-15 14:49:35
+date: 2026-07-05 18:11:13
 tags: butterfly, hexo, 自动化
 cover: false
 description: 测试自动化流程
