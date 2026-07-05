@@ -104,7 +104,7 @@ footer_img: translate
 
 # Website Background
 # Can set it to color or image url
-background: /images/fushishan.jpg
+background: /hexo-blog/images/fushishan.jpg
 cover:
   # Disable the cover or not
   index_enable: true
@@ -164,7 +164,7 @@ index_top_img_height: 400px
 subtitle:
   enable: true
   # Typewriter Effect
-  effect: true
+  effect: false
   # Customize typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
@@ -175,9 +175,10 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - yijuzhan.com
   # 3 - jinrishici.com
-  source: 1
+  source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - 且行且看且从容 且停且忘且随风
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -445,9 +446,9 @@ wordcount:
 
 # Busuanzi count for PV / UV in site
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: false
+  site_pv: false
+  page_pv: false
 
 # --------------------------------------
 # Math
@@ -1048,8 +1049,8 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="/css/modify.css">
-    - <link rel="stylesheet" href="/css/transpancy.css">
+    - <link rel="stylesheet" href="/hexo-blog/css/modify.css">
+    - <link rel="stylesheet" href="/hexo-blog/css/transpancy.css">
   bottom:
     # - <script src="xxxx"></script>
 
