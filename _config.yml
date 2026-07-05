@@ -41,6 +41,8 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
+# Keep images next to each post for Typora/Hexo compatibility.
+# Example: source/_posts/post-title.md + source/_posts/post-title/image.png
 post_asset_folder: true
 marked:
   prependRoot: true
@@ -103,11 +105,12 @@ ignore:
 theme: butterfly
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repository: https://github.com/energeticboy/hexo-blog.git
-  branch: main
+## GitHub Pages is deployed by .github/workflows/pages.yml.
+## Keep hexo deploy disabled for this repository.
+# deploy:
+#   type: git
+#   repository: https://github.com/energeticboy/hexo-blog.git
+#   branch: main
 #本地搜索
 # search:
 #   path: search.xml
